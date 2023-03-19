@@ -1,0 +1,44 @@
+/* quitar los bordes del navegador  */
+*{
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  width: 100%;
+  overflow: hidden;
+  background-color: rgb(240, 235, 235);
+  margin-bottom: 15px;
+}
+
+.centrar{
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+  overflow: hidden;
+}
+
+header .logo{
+  font-size: 20px;
+  line-height: 10px;
+  float: left;
+  width: 50px;
+  height: 50px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+header nav{
+  float: right;
+  line-height: 80px;
+}
+
+header nav a{
+  display: inline-block;
+  padding: 10px 40px;
+  text-decoration: none;
+  color:rgb(109, 106, 106);
+  line-height: normal;
+  font-size: 15px;
+  font-family: Helvetica, Arial, sans-serif;
+}

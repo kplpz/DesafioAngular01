@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.c{
+  display: inline-block;
+  width: 99%;
+  height: 100%;
+  background-color: rgb(10, 10, 44);
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 25px;
+  border: 6px;
+  border-radius: 2px;
+
+}
+
+p, h2{
+  color: #fff;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+h1{
+  color: rgb(224, 155, 71);
+  font-size: 60px;
+  padding-top: 20px;
+}
+hr{
+  margin-top: 10px;
+}
