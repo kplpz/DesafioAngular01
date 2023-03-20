@@ -33,3 +33,19 @@ img {
   width: 40%;
   height: 50px;
 }
+
+.btn:hover{
+  background-color: rgb(5, 5, 54);
+}
+
+@media screen and (max-width:780px){
+  .iz{
+  width: auto;
+  margin: auto;
+  }
+  .der{
+    width: auto;
+    margin: auto;
+    }
+
+}

@@ -32,3 +32,22 @@ img{
 p{
   padding-top: 20px;
 }
+h2:hover{
+  color: rgb(150, 99, 6);
+}
+
+@media screen and (max-width:780px){
+  .contenido{
+    width:auto;
+    margin: auto;
+  }
+  p,h1{
+    width: auto;
+    margin: auto;
+  }
+
+  img {
+    width: auto;
+    height: auto;
+  }
+}

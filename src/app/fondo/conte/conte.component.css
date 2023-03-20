@@ -1,34 +1,50 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
 
-.contenedor{
-  display: flex;
-  flex-wrap: wrap;
+.contenedor {
+  /* display: flex;
+  flex-wrap: wrap; */
   width: 99%;
   height: 85%;
   background-color: rgb(255, 255, 255);
 }
 
-.izquierda{
+.izquierda {
   float: left;
-  width: 65%;
+  width: 70%;
   height: 40%;
   /* background-color: brown; */
 }
 
-.derecha{
+.derecha {
   float: left;
-  width: 35%;
+  width: 25%;
   height: 40%;
   /* background-color: aquamarine; */
 }
-.pie{
+
+.pie {
   height: 45%;
-  width: 98%;
+  width: 99%;
   padding-bottom: 20px;
   /* background-color: blue; */
 }
 
+@media screen and (max-width:780px) {
+  .contenedor {
+    width: auto;
+    margin: auto;
+  }
 
+  .izquierda {
+    width: auto;
+    margin: auto;
+  }
+
+  .derecha {
+    width: auto;
+    margin: auto;
+  }
+}

@@ -28,3 +28,15 @@ h1{
 hr{
   margin-top: 10px;
 }
+
+h2:hover{
+  color: rgb(224, 155, 71);
+}
+
+
+@media screen and (max-width:780px){
+  .c{
+  width: 90%;
+  }
+
+  }
